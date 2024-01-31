@@ -37,3 +37,40 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .photo-card .content {
+        display: flex;
+        flex-direction: row;
+    }
+    .photo-card{
+        text-align: start;
+    }
+    .photo-card img{
+        margin: 5px 10px 5px 0;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    .photo-card{
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+    .photo-card .content {
+        display: flex;
+        flex-direction: row;
+    }
+    .photo-card{
+        margin-bottom: auto;
+        text-align: start;
+        width: 40%;
+        height: 400px;
+        display: inline-block;
+    }
+    .photo-card img{
+        margin: 5px 10px 5px 0;
+    }
+}
