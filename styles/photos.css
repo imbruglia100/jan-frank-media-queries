@@ -24,3 +24,16 @@
 }
 
 /* Your code here */
+
+@media print {
+    .photo-card {
+        background-color: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .photo-card > a {
+        display: none;
+    }
+}
